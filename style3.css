@@ -1,0 +1,33 @@
+.painting-3{
+    display: grid;
+    width: 600px;
+    height:600px;
+    border: 1px solid black;
+    grid-template-columns: repeat(30,1fr);
+    grid-template-rows: repeat(30, 1fr);
+
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
+
+.blue{
+    background-color: #009BFF;
+}
+
+.orange{
+    background-color: #FF823B;
+}
+
+.chip{
+    background-color: #CC9655;
+}
+
+.brown{
+    background-color: #653000;
+}
