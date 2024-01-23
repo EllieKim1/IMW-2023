@@ -1,0 +1,32 @@
+* { /* Remove default browser spacing */
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 100px; /* Add spacing around the entire page */ 
+    font-size: 12px; /* Setting baseline font size */ 
+}
+
+/* Start of text sizes */
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 3em;
+}
+p {
+    font-size: 2em;
+    line-height: 1.5em;
+}
+figcaption {
+    font-size: 1.25em;
+}
+/* End of text sizes */
+
+/* Start of spacing and layout */
+h2, p, figure, figcaption {
+    margin-bottom: 40px;
+}
+img {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,380 @@
+body {
+    font-family: schoolbell, 'cursive';
+    background-color: #F68CC7;
+    margin: 0;
+    width: 1728px;
+    height: 4072px;  
+
+}
+
+.wrap {
+    position: relative;
+    width: 1140px;
+    height: 443px;
+    background-color: #F20505;
+}
+
+.header {
+    position: relative;
+}
+
+.header a h2 {
+    color: white;
+    width: 939px;
+    height: 301px;
+    flex-shrink: 0;
+    font-family: 'Schoolbell', cursive;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 71px;
+    padding-left: 120px;
+    margin: 0;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.circle1 {
+    position: absolute;
+    bottom: -75px;
+    right: -75px;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.star-container {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    width: 200px; 
+    height: 100px; 
+    background-color: #FEDF74;
+    padding: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-text {
+    color: black;
+    text-align: center; 
+}
+
+.intro-text{
+    margin-top: 100px;
+    margin-left: 120px;
+    width: 772px;
+    height: 269px;
+    flex-shrink: 0;
+    background-color: #FEDF74;
+    justify-content: center;
+    align-items: center;
+    padding-top: 63px;
+     
+    
+}
+
+.intro-text h3{
+    color: black;
+    text-align: center;
+    font-family: Schoolbell;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link1 .greentriangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 387px 668.5px 387px;
+    border-color: transparent transparent #038C4C transparent;
+    transform: rotate(270deg);
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.link1 .circle2 {
+    position: absolute;
+    top: 1130px; 
+    right: 637px; 
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+.link2 .blueball {
+    position: relative;
+    width: 770px;
+    height: 770px;
+    background-color: #77ABD9;
+    border-radius: 50%;
+    flex-shrink: 0;
+    top: -300px; 
+    left: -95px;
+}
+
+.link2 .circle3{
+    position: absolute;
+    top:1375px;
+    left: 575px;
+    background-color: white;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+
+.click-text{
+    width: 680px;
+    height: 212px;
+    flex-shrink: 0;
+    background-color: #FEDF74;;
+    padding-top: 50px;
+    position: relative;
+    top: -670px;
+    right: -850px;
+
+
+
+}
+
+.click-text h3 {
+    color: black;
+    text-align: center;
+    font-family: Schoolbell;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link3 .circle4{
+    position: absolute;
+    top: 2100px;
+    left: 1125px;
+    background-color: white;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.link3 .topbox{
+    position: relative;
+    width: 800px;
+    height: 143px;
+    background-color: #F2BEFF;
+    top: -400px;
+    left: 800px;
+    z-index: 1;
+
+}
+.link3 .bottombox{
+    position: relative;
+    width: 650px;
+    height: 557px;
+    flex-shrink: 0;
+    background-color: #F2BEFF;
+    top:-400px;
+    left: 875px;
+   
+
+}
+
+.link4 .circle5{
+    position: absolute;
+    top: 2400px;
+    left: 600px;
+    background-color: white;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.link4 .socks1{
+    position: relative;
+    width: 337px;
+    height: 617px;
+    flex-shrink: 0;
+    z-index:1;
+    background-color: #F20505;
+    top:-800px;
+    left: 350px;
+}
+
+.link4 .socks2{
+    position: relative;
+    width: 495px;
+    height: 307px;
+    flex-shrink: 0;
+    z-index:1;
+    background-color: #F20505;
+    top:-1100px;
+    left:192px;
+
+}
+
+.link4 .socks3{
+    position: relative;
+    width: 240px;
+    height: 308px;
+    flex-shrink: 0;
+    border-radius: 308px;
+    z-index:1;
+    background-color: #F20505;
+    top: -1408px;
+    left: 89px;
+
+}
+
+.thankyou-text{
+    margin-top: 100px;
+    margin-left: 120px;
+    flex-shrink: 0;
+    background-color: #FEDF74;
+    justify-content: center;
+    align-items: center;
+    padding-top: 43px;
+    padding-bottom: 40px;
+    width: 1368px;
+    top:3200px;
+    position: absolute;
+}
+
+.thankyou-text h3{
+    color: black;
+    text-align: center;
+    font-family: Schoolbell;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.cake2 {
+    margin-right: 900px;
+    margin-top: -800px;
+}
+
+.cake {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cake .cherrytop {
+    width: 6px;
+    height: 63px;
+    flex-shrink: 0;
+    background-color: #038C4C;
+}
+
+.cake .cherry {
+    width: 110px;
+    height: 110px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #F20505;
+}
+
+.cake .cakemiddle {
+    width: 511px;
+    height: 70px;
+    flex-shrink: 0;
+    background-color: #FFCFE0;
+    position: relative;
+}
+
+.cake .cakemiddle2 {
+    width: 511px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #FFE6EF;
+    position: relative;
+}
+
+.cake .cakemiddle3 {
+    width: 511px;
+    height: 70px; 
+    flex-shrink: 0;
+    background-color: #FFCFE0;
+    position: relative;
+}
+
+.cake .dish {
+    width: 735px;
+    height: 276px;
+    flex-shrink: 0;
+    border-radius: 735px;
+    background: #FF0000;
+    position: absolute;
+    bottom: -3250px;
+}
+
+
+.coffee {
+    margin-top: 200px;
+    margin-left: 900px;
+}
+
+.coffee .coffeetop {
+    width: 563px;
+    height: 162px;
+    flex-shrink: 0;
+    border-radius: 563px;
+    background: #7F5F5F;
+    position: relative;
+    top: -1092px;
+    right: -30px
+}
+
+.coffee .coffeemiddle {
+    width: 619px;
+    height: 179px;
+    flex-shrink: 0;
+    border-radius: 619px;
+    background: #77ABD9;
+    position: relative; 
+    top: -922px;
+}
+
+.coffee .coffeebottom {
+    width: 620px;
+    height: 383px;
+    flex-shrink: 0;
+    background: #77ABD9;
+    position: relative; 
+    top: -450px;
+}
+
+.coffee .coffeebottom2 {
+    width: 619px;
+    height: 179px;
+    flex-shrink: 0;
+    border-radius: 619px;
+    background: #77ABD9;
+    position: relative; 
+    top: -880px;
+}
+
