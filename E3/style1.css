@@ -1,0 +1,78 @@
+.adobe-font{
+    font-family: "bely-display", Tahoma, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    
+    &:hover{
+        color:rgb(255, 160, 160);
+        transform: translateX(100px);
+        animation: adobe-font 1.5s infinite;
+    }
+    
+}
+@keyframes adobe-font {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.95, 1.05);}
+}
+
+
+.google-font{
+    font-family: 'Sixtyfour', Gerneva, verdana, sans-serif;
+    font-size: 36px;
+    color: green;
+
+    &:hover{
+        color:rgb(93, 161, 255);
+        transform: translateX(30px);
+        animation: google-font, 0.15s, infinite;
+    }
+    
+}
+
+@keyframes google-font{
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+  }
+  
+span{
+    display: block;
+
+
+}
+
+@font-face {
+    font-family: 'Bespoke';
+    src: url('Bespoke-_927PpKQRc.eot');
+    src: url('Bespoke-_927PpKQRc.eot?#iefix') format('embedded-opentype'),
+       url('Bespoke-_927PpKQRc.woff') format('woff'),
+       url('Bespoke-_927PpKQRc.ttf') format('truetype'),
+       url('Bespoke-_927PpKQRc.svg#Bespoke-_927PpKQRc') format('svg');
+  }
+
+
+.self-hosted{
+    font-family: 'Bespoke', Arial, helvetica, sans-serif;
+    transition: color 750ms, transform 750ms;
+
+    &:hover{
+        color:plum;
+        transform: translateY(100px);
+    }
+}
+
+@keyframes slide-right {
+    to {
+        transform: translateY(0);
+
+    }
+    from {
+        transform: translateY(100px);
+
+    }
+}
