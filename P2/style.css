@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+}
+
+header {
+    background-color: white;
+    border: 3vw #3052F5;
+    display: flex;
+    width:100%;
+    height:400px;
+}
+
+.school-name{
+    font-size: 32px;
+    font-family: "Roboto slab";
+    padding-left: 70px;
+    padding-top: 60px;
+    color:#3052F5;
+    width: 700px;
+    height: 66px;
+}
+.site-name{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    width: 660px;
+    height: 240px;
+    position: absolute;
+    padding-left : 70px ;
+    padding-top: 130px;
+}
+.get-ticket{
+    width: 280px;
+    height: 115px;
+    background-color: #3052F5;
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+}
+.get-tickets-text{
+    font-family: "Roboto slab";
+    font-size: 48px;
+    color: white;
+    padding-left: 14px;
+    text-decoration: none;
+}
+.get-ticket:hover{
+    background-color: black;
+}
+
+.e-roon-Kang{
+    height: auto;
+    width: 100%;
+    background-color:#3052F5;
+    padding-bottom: 30px;
+}
+
+.e-roon-kang-name h2{
+    color: white;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    padding-left : 70px ;
+    padding-top: 60px;
+    font-size: 32px;
+}
+
+.e-roon-kang-name h4{
+    color: white;
+    font-family: "Roboto slab";
+    font-size: 13px;
+    padding-left : 70px ;
+    font-weight: 400;
+}
+.e-roon-description{
+    width: 1130px;
+    align-items: center;
+}
+
+.e-roon-description h3{  
+    color: white;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    padding-left : 70px ;
+    padding-top: 14px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.e-roon-description h3 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.e-roon-description:hover h3 {
+    max-height: 200px;
+}
+
+.e-roon-description a{
+    color: white;
+    font-family: "Roboto slab";
+    font-weight: 300;
+    padding-left : 70px ;
+    font-size: 20px;
+}
+.e-roon-shape{
+    display: flex;
+}
+.e-roon-shape .shape1 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white; 
+    margin-top: 70px;
+    margin-left: 17px;
+    transition: transform 0.5s; 
+}
+
+.e-roon-shape .shape1:hover {
+    transform: rotate3d(1,1,0, 30deg); 
+}
+
+.e-roon-shape .shape2 {
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+    background-color: white; 
+    margin-top: 70px;
+    margin-left: 17px;
+    transition: transform 0.5s; 
+}
+
+.e-roon-shape .shape2:hover {
+    transform: rotate3d(-1,0.5,0, 30deg);
+}
+
+.e-roon-shapes-container {
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.e-roon-shape .shape3,
+.e-roon-shape .shape4,
+.e-roon-shape .shape5 {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    margin-top: 70px;
+}
+
+.e-roon-shape .shape3 {
+    border-radius: 50%;
+    margin-left: 17px;
+}
+
+.e-roon-shape .shape4 {
+    border-radius: 10%;
+    margin-left: -65px;
+}
+
+.e-roon-shape .shape5 {
+    border-radius: 50%;
+    margin-left: -65px;
+}
+
+.e-roon-shapes-container:hover {
+    transform: rotate3d(1,1,0, 30deg);
+}
+/*
+.e-roon-shape .shape3 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white; 
+    margin-top: 70px;
+    margin-left: 17px;
+}
+.e-roon-shape .shape4 {
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+    background-color: white; 
+    margin-top: 70px;
+    margin-left: -65px;
+}
+
+.e-roon-shape .shape5 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white; 
+    margin-top: 70px;
+    margin-left: -65px;
+}
+*/
+.e-roon-shape .shape6 {
+    width: 220px;
+    height: 110px;
+    border-radius: 110px 110px 0 0 ;
+    background-color: white; 
+    margin-top: 70px;
+    margin-left: 17px;
+    transition: transform 0.5s; 
+}
+.e-roon-shape .shape6:hover {
+    transform: rotate3d(-1,0.5,0, 30deg);; 
+}
+
+.e-roon-shape .shape7 {
+    width: 220px;
+    height: 120px;
+    border-radius: 10%;
+    background-color: white; 
+    margin-top: 70px;
+    margin-left: 17px;
+    transition: transform 0.5s; 
+}
+.e-roon-shape .shape7:hover {
+    transform: rotate3d(1,1,0, 30deg); 
+}
+.e-roon-shape .shape8 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white; 
+    margin-top: 70px;
+    margin-left: 17px;
+    transition: transform 0.5s; 
+}
+.e-roon-shape .shape8:hover {
+    transform: rotate3d(-1,0.5,0, 30deg);; 
+}
+.e-roon-shape .shape9 {
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+    background-color: white; 
+    margin-top: 70px;
+    margin-left: 17px;
+    transition: transform 0.5s; 
+}
+.e-roon-shape .shape9:hover {
+    transform: rotate3d(1,1,0, 30deg); 
+}
+
+.Nelly-Ben{
+    height: auto;
+    width: 100%;
+    background-color:#3052F5;
+    cursor: url('cursor.png')auto;
+    padding-bottom: 30px;
+}
+
+.nelly-ben-name h2{
+    color: white;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    padding-left : 70px ;
+    padding-top: 60px;
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-shadow: 0px 0px 15px white;
+}
+.nelly-ben-name h4{
+    color: white;
+    font-family: "Roboto slab";
+    font-size: 13px;
+    padding-left : 70px ;
+    font-weight: 400;
+    text-shadow: 0px 0px 15px white;
+}
+.nelly-ben-description{
+    width: 1130px;
+    align-items: center;
+}
+
+.nelly-ben-description h3{  
+    color: white;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    padding-left : 70px ;
+    padding-top: 14px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-shadow: 0px 0px 15px white;
+}
+
+.nelly-ben-description h3 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.nelly-ben-description:hover h3 {
+    max-height: 200px;
+}
+
+.nelly-ben-description a{
+    color: white;
+    font-family: "Roboto slab";
+    font-weight: 300;
+    padding-left : 70px ;
+    font-size: 20px;
+    text-shadow: 0px 0px 15px white;
+}
+
+.paul-sahre {
+    height: auto;
+    width: 100%;
+    background-color: #3052F5;
+    background-image: radial-gradient(#ffffff 20%, transparent 20%),
+                      radial-gradient(#ffffff 20%, transparent 20%);
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px; 
+    padding-bottom: 30px;
+}
+
+.paul-name{
+    position:relative; 
+    top:50px;
+}
+.paul-name h2{
+    color: white;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    margin-left : 65px ;
+    font-size: 32px;
+    margin-bottom: 15px;
+    background-color: #3052F5;
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+} 
+.paul-name h4{
+    color: white;
+    font-family: "Roboto slab";
+    font-size: 13px;
+    margin-left : 65px ;
+    font-weight: 400;
+    background-color: #3052F5;
+    width: 160px;
+    height: 20px;
+    text-align: center;
+    
+}
+.paul-sahre-description{
+    width: 1130px;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.paul-sahre-description h3{  
+    color: white;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    margin-left : 65px ;
+    margin-top: 18px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: #3052F5;
+    padding-top:5px;
+    padding-left: 5px;
+
+    height: 110px;
+    
+}
+.paul-sahre-description h3 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.paul-sahre-description:hover h3 {
+    max-height: 200px;
+}
+
+.paul-sahre-description a{
+    color: white;
+    font-family: "Roboto slab";
+    font-weight: 300;
+    margin-left : 65px ;
+    font-size: 20px;
+    background-color: #3052F5;
+    padding-top:6px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width: 215px;
+    height: 30px;
+}
+
+
+.Prem-Krish{
+    height: auto;
+    width: 100%;
+    background-color:#3052F5;
+    padding-bottom: 30px;
+}
+
+.prem-krish-name h2{
+    color: white;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    padding-left : 70px ;
+    padding-top: 60px;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.prem-krish-name h4{
+    color: white;
+    font-family: "Roboto slab";
+    font-size: 13px;
+    padding-left : 70px ;
+    font-weight: 400;
+}
+.prem-krish-description{
+    width: 1130px;
+    align-items: center;
+}
+
+.prem-krish-description h3{  
+    color: white;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    padding-left : 70px ;
+    padding-top: 14px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.prem-krish-description h3 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.prem-krish-description:hover h3 {
+    max-height: 200px;
+}
+
+.prem-krish-description a{
+    color: white;
+    font-family: "Roboto slab";
+    font-weight: 300;
+    padding-left : 70px ;
+    font-size: 20px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to { 
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.prem-shape {
+    width: 1280px; 
+    height: 200px; 
+    margin: 110px auto 0;
+    display: flex;
+    justify-content: space-between; 
+    position: relative; 
+    left: auto;
+    top: -50px;
+
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    border: solid 4px #ffffff;
+    border-radius: 50%;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    -webkit-transition: all 1.5s ease-in;
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 3.0s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    transition: all 1.5s ease-in;
+    animation-name: rotate; 
+    animation-duration: 3.0s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+
