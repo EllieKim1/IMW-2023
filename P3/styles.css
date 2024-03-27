@@ -1,0 +1,31 @@
+body {
+  margin: 1.5px 0 0 0;
+  padding: 0;
+  height: 42000px;
+  background: url('1X/14401.png') no-repeat,
+              url('1X/14402.png') no-repeat, 
+              url('1X/14403.png') no-repeat;
+  background-size: auto auto;           
+  background-attachment: fixed;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 42000px;
+  background: linear-gradient(to bottom, #87CEEB, #000080);
+}
+
+#blocks {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  margin-top: 0.5px;
+}
+
+.block {
+  height: 18px;
+  width: 100%;
+  margin-bottom: 6px;
+  background-color: #46439a;
+}
