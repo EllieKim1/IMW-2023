@@ -2,9 +2,9 @@ body {
   margin: 1.5px 0 0 0;
   padding: 0;
   height: 42000px;
-  background: url('1X/14401.png') no-repeat,
-              url('1X/14402.png') no-repeat, 
-              url('1X/14403.png') no-repeat;
+  background: url('14401.png') no-repeat,
+              url('14402.png') no-repeat, 
+              url('14403.png') no-repeat;
   background-size: auto auto;           
   background-attachment: fixed;
 }
