@@ -1,0 +1,101 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  line-height: 1.6;
+  background: rgb(151, 253, 222);
+  color: rgb(255, 179, 208);
+  margin: 0 auto;
+  padding: 0;
+  max-width: 900px;
+}
+
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-left: 1em;
+}
+
+p {
+  font-size: 1rem;
+}
+
+form,
+textarea {
+  font-size: 1rem;
+}
+
+button {
+  display: block;
+  font-size: 1.2rem;
+  padding: 0.5em 1em;
+  border: none;
+  background-color: aquamarine;
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+}
+
+
+header {
+  text-align: center;
+  margin: 1em auto;
+}
+
+.section {
+  padding: 1em 1em;
+  width: 100%;
+  margin: 1em auto;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1em 1em;
+}
+
+.container-question{
+    width: 60em;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 2px;
+    border: unset;
+    background-color: lightgoldenrodyellow;
+    font-family: "Schoolbell", cursive;
+    font-weight: 400;
+}
+
+.container-answer{
+    width: 60em;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 2px;
+    border: unset;
+    background-color: lightgoldenrodyellow;
+    font-family: "Schoolbell", cursive;
+    font-weight: 400;
+}
+.btn-main{
+    display: block;
+    padding: 0.6rem 2rem;
+    margin: auto;
+    transition: all 0.1s;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: lightgoldenrodyellow;
+    background-color: rgb(255, 179, 208);
+  }
+  
